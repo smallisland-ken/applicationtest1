@@ -1,0 +1,12 @@
+　<body class="showbody">
+
+　<P class="showp">
+    <strong>Title：</strong><%= @book.title %>
+　</P>
+
+  <p class="showp">
+    <strong>Body：</strong><%= @book.body %>
+  </P>
+
+  <%= link_to "Edit", edit_book_path(@book) %> |  <%= link_to "Back", books_path %>
+  </body>
